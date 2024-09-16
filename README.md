@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/user-attachments/assets/6d4d0214-f563-4164-a482-917dbdaf636a" width="400" alt="Plusquepro movies"></a></p>
+<p align="center"><a href="https://github.com/user-attachments/assets/6d4d0214-f563-4164-a482-917dbdaf636a" target="_blank"><img src="https://github.com/user-attachments/assets/6d4d0214-f563-4164-a482-917dbdaf636a" width="400" alt="Plusquepro movies"></a></p>
 
 ## Installation
 

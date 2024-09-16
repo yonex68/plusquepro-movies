@@ -32,8 +32,8 @@ class UpdateTrendingMovies extends Command
         $trending = $this->callTMDBendpoint('trending/movie/day');
     
         foreach($trending->results as $m) {
-            $movie = Movie::where('movie_id', $m->id)->get();
-            if($movie->isEmpty()) $movie = new Movie();
+            $movie = Movie::where('movie_id', $m->id)->first();
+            if(!$movie) $movie = new Movie();
 
             $movie->movie_id = $m->id;
             $movie->backdrop_path = $m->backdrop_path;
