@@ -123,4 +123,17 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | TMDB
+    |--------------------------------------------------------------------------
+    |
+    | Version 3 of The Movie Database (TMDB) API.
+    |
+    */
+
+    'tmdb' => [
+        'api_key' => env('TMDB_API_KEY', ''),
+        'base_url' => env('TMDB_BASE_URL', '')
+    ]
 ];
